@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Quattrocento', sans-serif; 
+    background-color: #0096c7;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color:#E0E1DD;
+}
+.imgInput{
+    margin-right: 20px;
+}
+.nameInput{
+    margin-right: 20px;
+}
+.container{
+    color:#E0E1DD;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #415AA7; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.carousel-inner img {
+    max-width: 30%;
+    height: auto;
+    width: 30%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner h2 {
+    color: #E0E1DD; 
+}
+.carousel-item active{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.wholeList{
+    /* display: block;
+    
+    margin-left: auto;
+    margin-right: auto; */
+    list-style: none;
+    padding: 0;
+    /* margin:0; */
+    margin-left: auto;
+    margin-right: auto; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    border-radius: 20px;
+    transition: border-bottom-color 0.3s ease;
+    background-color: transparent;
+    color:#E0E1DD ;
+    text-decoration-color: #E0E1DD;
+}
+input::placeholder{
+    color:#E0E1DD;
+}
+input:focus{
+    border-bottom-color: #4CAF50;
+}
+.carousel-inner a {
+    color: #0D1B2A; 
+    font-size: 35px; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.carousel-inner a:hover {
+    color: #0056b3; 
+}
+input, .carousel-inner a {
+    color: #E0E1DD; 
+}
+
+
+input:focus {
+    border-bottom-color: #4CAF50; 
+}
+
+
+.carousel-inner a:hover {
+    color: #0056b3; 
+}
+
